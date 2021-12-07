@@ -7,6 +7,8 @@ const instialState = {
   token : ""
 }
 ///create reduce functions 
+//reducer take two arg 1-state 2-action
+//reducer check the action type and update state with payload
 const login = (state = instialState,action )=>{ //keys action
    const {type , payload} = action; //payload > data (token&user) 
    //type we will use it in swich condition

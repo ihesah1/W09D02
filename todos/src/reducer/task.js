@@ -3,7 +3,7 @@ const initialState = {
   };
 //reduce func
   const TASK = (state = initialState, action) => {
-    const { type, payload } = action;
+    const { type, payload } = action; 
   
     switch (type) {
       case "TASK":
